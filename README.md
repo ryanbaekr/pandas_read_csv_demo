@@ -1,5 +1,7 @@
 # pandas read_csv demo
 
+This repository demonstrates the behavior covered in my [Issue](https://github.com/pandas-dev/pandas/issues/48487) which was later addressed in a [PR](https://github.com/pandas-dev/pandas/pull/48597) by @AlexKirko
+
 Pandas has a great function for reading data from a csv into a dataframe and automatically assigning datatypes to the columns. I do, however, have one issue with how this function handles certain keywords in string fields. Let's look at an example.
 
 ## Example
